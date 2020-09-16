@@ -1,0 +1,4 @@
+@use "./test2";
+@use "./test";
+
+@debug test.$test;

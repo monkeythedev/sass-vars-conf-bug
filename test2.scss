@@ -1,0 +1,5 @@
+@use "./test" with (
+  $test: "right!"
+);
+
+@debug test.$test;
